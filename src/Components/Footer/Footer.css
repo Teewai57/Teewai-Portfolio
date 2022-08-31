@@ -4,6 +4,8 @@ footer{
     font-size: 0.5rem;
     margin-top: 5rem;
     display: flex;
+    /* z-index: 2; */
+    /* position: fixed; */
 }
 .footer_logo{
     font-size: 1.2rem;
@@ -25,16 +27,12 @@ footer a{
 
 
 .footer_socials a{
-    background: var(--color-bg);
-    color: var(--color-white);
-    padding: 0.5rem;
-    border-radius: 0.7rem;
+    color: var(--color-bg);
     display: flex;
-    border: 1px solid transparent;
 }
 .footer_socials a:hover{
     background: transparent;
-    color: var(--color-bg);
+    color: var(--color-white);
     border-color: var(--color-bg);
 }
 .footer_copyrights{
@@ -43,43 +41,6 @@ footer a{
     font-size: 1rem;
     text-align: end;
 } 
-/*  
-
-.permalinks{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
-}
-
-.footer_socials{
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-bottom: 4rem;
-}
-
-.footer_socials a{
-    background: var(--color-bg);
-    color: var(--color-white);
-    padding: 0.8rem;
-    border-radius: 0.7rem;
-    display: flex;
-    border: 1px solid transparent;
-}
-.footer_socials a:hover{
-    background: transparent;
-    color: var(--color-bg);
-    border-color: var(--color-bg);
-}
-.footer_copyrights{
-    margin-bottom: 0.5rem;
-    color: var(--color-bg);
-    font-size: 1rem;
-    text-align: end;
-} */
-
-
 /************************* MEDIA QUERIES (MEDIUM DEVICES ********************   */
 
 @media screen and (min-width: 1024px) {
@@ -107,42 +68,34 @@ footer a{
 }
 /************************* MEDIA QUERIES (SMALL DEVICES0 ********************   */
 
-/* @media screen and (max-width: 425px) {
+@media screen and (max-width: 425px) {
     footer{
         width: 100% !important;
         
     }
     .footer_copyrights{
         font-size: 0.7rem;
-    }
-    .footer_logo{
-        font-size: 1rem;
+        margin-top: 0.5rem;
     }
     .footer_socials{
         position: relative;
-        right: 12%;
+        left: 5%;
     }
-    .footer_socials a{
-        padding: 0.5rem;
-    }
-} */
+}
 /************************* MEDIA QUERIES (SMALL DEVICES0 ********************   */
 
-/* @media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
     footer{
         width: 100% !important;
     }
     .footer_copyrights{
-        font-size: 0.5rem;
-    }
-    .footer_logo{
-        font-size: 1rem;
+        font-size: 0.65rem;
+        margin-left: auto;
     }
     .footer_socials{
-        position: relative;
-        right: 5%;
+        display: none;
+        /* position: relative;
+        right: 50%; */
     }
-    .footer_socials a{
-        padding: 0.5rem;
-    }
-} */
+
+}
