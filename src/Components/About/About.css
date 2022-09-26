@@ -4,6 +4,7 @@
     gap: 15%;
 }
 .about_me{
+    margin-top: 1rem !important;
     width: 100%;
     height: fit-content;
     aspect-ratio: 1/1;
