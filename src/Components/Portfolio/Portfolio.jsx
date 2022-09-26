@@ -26,8 +26,8 @@ const data = [
     id:3,
     image:IMG3,
     title: "My Portfolio",
-    github: "https://github.com/Teewai57/Link-Shortener",
-    demo: "https://link-shortener-fawn.vercel.app/"
+    github: "https://github.com/Teewai57/Teewai-Portfolio",
+    demo: "https://toyoabasi-bob.vercel.app/"
   },
   {
     id:4,
