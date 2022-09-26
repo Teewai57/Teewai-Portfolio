@@ -1,6 +1,6 @@
 import React from 'react';
 import "./About.css";
-import MeImage from "../../assets/me-about.jpg"
+import MeImage from "../../assets/profile3.jpeg"
 import {FaAward} from "react-icons/fa"
 import {FiUsers} from "react-icons/fi"
 import {VscFolderLibrary} from "react-icons/vsc"
@@ -23,24 +23,23 @@ const About = () => {
             <article className="about_card">
               <FaAward className='about_icon' />
               <h5>Experience</h5>
-              <small>9+ months Working</small>
+              <small>10+ months Working</small>
             </article>
             <article className="about_card">
               <FiUsers className='about_icon' />
               <h5>Clients</h5>
-              <small>10+ Worldwide</small>
+              <small>3 Worldwide</small>
             </article>
             <article className="about_card">
               <VscFolderLibrary className='about_icon' />
               <h5>Projects</h5>
-              <small>20+ Completed</small>
+              <small>10+ Completed</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione aut dolorem placeat, 
-            nulla sed eveniet quos. Quos porro nihil ratione aut ipsum, non, quod, suscipit obcaecati
-            tenetur deleniti perspiciatis consequuntur.
+           I'm a front-End Developer who is ardent about building web applications and websites with the use of cutting edge technologies. 
+           I have Experience with writing clean code and building fully responsive and user friendly UIs with HTML/CSS and it's frameworks, Vue.js and React.js
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>

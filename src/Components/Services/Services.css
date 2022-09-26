@@ -28,10 +28,10 @@
 ul{
     padding: 2rem;
 }
-li{
+/* li{
     justify-content: center;
 
-}
+} */
 ul li{
     display: flex;
     gap: 1rem;

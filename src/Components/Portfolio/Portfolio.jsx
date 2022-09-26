@@ -11,44 +11,44 @@ const data = [
   {
     id:1,
     image:IMG1,
-    title: "Crypto Dashboard",
-    github: "https://github.com/",
-    demo: "https://dribbble.com/"
+    title: "Utibe's Portfolio",
+    github: "https://github.com/Teewai57/Mr-Utibe-s-Portfolio",
+    demo: "https://utibe-etim.vercel.app/"
   },
   {
     id:2,
     image:IMG2,
-    title: "Crypto Dashboard",
-    github: "https://github.com/",
-    demo: "https://dribbble.com/"
+    title: "Grocery List",
+    github: "https://github.com/Teewai57/Grocery-Bud",
+    demo: "https://grocery-list-seven.vercel.app/"
   },
   {
     id:3,
     image:IMG3,
-    title: "Crypto Dashboard",
-    github: "https://github.com/",
-    demo: "https://dribbble.com/"
+    title: "Link Shortener",
+    github: "https://github.com/Teewai57/Link-Shortener",
+    demo: "https://link-shortener-fawn.vercel.app/"
   },
   {
     id:4,
     image:IMG4,
-    title: "Crypto Dashboard",
-    github: "https://github.com/",
-    demo: "https://dribbble.com/"
+    title: "Joke App",
+    github: "https://github.com/Teewai57/Joke-Telling-App",
+    demo: "https://joke-telling-app.vercel.app/"
   },
   {
     id:5,
     image:IMG5,
-    title: "Crypto Dashboard",
-    github: "https://github.com/",
-    demo: "https://dribbble.com/"
+    title: "Food Website",
+    github: "https://github.com/Teewai57/Food-Plaza",
+    demo: "https://food-plaza-one.vercel.app/"
   },
   {
     id:6,
     image:IMG6,
-    title: "Crypto Dashboard",
-    github: "https://github.com/",
-    demo: "https://dribbble.com/"
+    title: "Order Dashboard",
+    github: "https://github.com/Teewai57/Frontend-Engineer-Task",
+    demo: "https://frontend-engineer-task.vercel.app/"
   },
 ]
 
@@ -62,9 +62,9 @@ const Portfolio = () => {
       {data.map(({id, image, title, github, demo}) => {
         return(
           <article key={id} className="portfolio_item">
-          <div className="portfolio_item-image">
+          {/* <div className="portfolio_item-image">
               <img src={image} alt={title} />
-          </div>
+          </div> */}
           <h3>{title}</h3>
           <div className="portfolio_item-cta">
           <a href={github} className='btn' target='_blank'>Github</a>
