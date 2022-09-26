@@ -25,7 +25,7 @@ const data = [
   {
     id:3,
     image:IMG3,
-    title: "Link Shortener",
+    title: "My Portfolio",
     github: "https://github.com/Teewai57/Link-Shortener",
     demo: "https://link-shortener-fawn.vercel.app/"
   },
