@@ -1,17 +1,17 @@
-header{
+header {
     height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
 }
 
-.header_container{
+.header_container {
     text-align: center;
     height: 100%;
     position: relative;
 }
 
 /* ***********************CTA********************** */
-.cta{
+.cta {
     margin-top: 2.5rem;
     display: flex;
     gap: 1.2rem;
@@ -19,7 +19,7 @@ header{
 }
 
 /* ***********************HEADER SOCIALS********************** */
-.header_socials{
+.header_socials {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,7 +29,7 @@ header{
     bottom: 3rem;
 }
 
-.header_socials::after{
+.header_socials::after {
     content: '';
     width: 1px;
     height: 2rem;
@@ -37,7 +37,7 @@ header{
 }
 
 /* ***********************IMG********************** */
-.myImage{
+.myImage {
     background: linear-gradient(var(--color-primary), transparent);
     align-items: center;
     width: 22rem;
@@ -51,7 +51,7 @@ header{
 }
 
 /* ***********************TO BOTTOM********************** */
-.scroll_down{
+.scroll_down {
     position: absolute;
     right: -2.3rem;
     bottom: 5rem;
@@ -61,46 +61,51 @@ header{
 }
 
 /************************* MEDIA QUERIES (MEDIUM DEVICES ********************   */
-@media screen and (max-width:425px){
-    .myImage{
+@media screen and (max-width:425px) {
+    .myImage {
         display: none;
-}
-.cta{
-    gap: 0.5rem;
-}
+    }
 
-    .myImage2 > img{
+    .cta {
+        gap: 0.5rem;
+    }
+
+    .myImage2>img {
         display: block;
         margin-top: 1rem;
         border-radius: 0.5rem;
-        }
+    }
 
-        .download-btn, .com-btn{
-            padding: 0.5rem 1rem;
-            border-radius: 0.3rem;
-            font-size: 1rem;
-        }
+    .download-btn,
+    .com-btn {
+        padding: 0.5rem 1rem;
+        border-radius: 0.3rem;
+        font-size: 1rem;
+    }
 }
+
 @media screen and (min-width:426px) {
-    .myImage2{
+    .myImage2 {
         display: none;
     }
 }
+
 @media screen and (max-width: 1024px) {
-   .header{
-    height: 68vh;
-   }
+    .header {
+        height: 68vh;
+    }
 
-  }
+}
 
-  /************************ MEDIA QUERIES (SMALL DEVICES ********************   */
+/************************ MEDIA QUERIES (SMALL DEVICES ********************   */
 
 @media screen and (max-width: 600px) {
-   header{
-    height: 100vh;
-   }
+    header {
+        height: 100vh;
+    }
 
-   .header_socials, .scroll_down{
-    display: none;
-   }
-  }
+    .header_socials,
+    .scroll_down {
+        display: none;
+    }
+}
