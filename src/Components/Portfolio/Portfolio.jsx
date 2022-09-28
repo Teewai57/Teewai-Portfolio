@@ -1,11 +1,11 @@
 import React from 'react'
 import "./Portfolio.css"
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
+import IMG1 from "../../assets/portfolio1.png";
+import IMG2 from "../../assets/portfolio2.png";
+import IMG3 from "../../assets/portfolio3.png";
+import IMG4 from "../../assets/portfolio4.png";
 import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+import IMG6 from "../../assets/portfolio6.png";
 
 const data = [
   {
@@ -24,28 +24,28 @@ const data = [
   },
   {
     id:3,
-    image:IMG3,
+    image:IMG6,
     title: "My Portfolio",
     github: "https://github.com/Teewai57/Teewai-Portfolio",
     demo: "https://toyoabasi-bob.vercel.app/"
   },
   {
     id:4,
-    image:IMG4,
+    image:IMG3,
     title: "Joke App",
     github: "https://github.com/Teewai57/Joke-Telling-App",
     demo: "https://joke-telling-app.vercel.app/"
   },
   {
     id:5,
-    image:IMG5,
+    image:IMG4,
     title: "Food Website",
     github: "https://github.com/Teewai57/Food-Plaza",
     demo: "https://food-plaza-one.vercel.app/"
   },
   {
     id:6,
-    image:IMG6,
+    image:IMG5,
     title: "Order Dashboard",
     github: "https://github.com/Teewai57/Frontend-Engineer-Task",
     demo: "https://frontend-engineer-task.vercel.app/"
@@ -62,9 +62,9 @@ const Portfolio = () => {
       {data.map(({id, image, title, github, demo}) => {
         return(
           <article key={id} className="portfolio_item">
-          {/* <div className="portfolio_item-image">
+          <div className="portfolio_item-image">
               <img src={image} alt={title} />
-          </div> */}
+          </div>
           <h3>{title}</h3>
           <div className="portfolio_item-cta">
           <a href={github} className='btn' target='_blank'>Github</a>

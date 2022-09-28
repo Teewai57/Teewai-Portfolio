@@ -13,7 +13,7 @@
         45deg, 
         transparent,
         var(--color-primary),
-        transparent
+        transparent 
         );
     display: grid;
     place-items: center;
