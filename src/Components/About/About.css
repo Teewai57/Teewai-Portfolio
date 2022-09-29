@@ -50,6 +50,9 @@
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
+.about_card >h5> a{
+    color: white !important;
+}
 .about_card h5{
     font-size: 0.95rem;
 }
@@ -84,6 +87,7 @@
     .about_me{
         width: 65%;
         margin: 0 auto 3rem;
+        margin-top: 1.5rem !important;
     }
     .about_cards{
         grid-template-columns: 1fr 1fr;
@@ -91,6 +95,7 @@
     }
     .about_content{
         text-align: center;
+        margin-top: 1.5rem !important;
     }
     .about_content p{
         margin: 1.5rem 0;
