@@ -36,7 +36,7 @@ const Contact = () => {
             <FaLinkedin className='contact_option-icon'/>
             <h4>LinkedIn</h4>
             <h5>Toyoabasi Bob</h5>
-            <a href="https://ng.linkedin.com/in/toyoabasi-bob-9835a7245?trk=people-guest_people_search-card" target="_blank">Send a message</a>
+            <a href="rhttps://ng.linkedin.com/in/toyoabasi-bob-9835a7245?trk=people-guest_people_search-card" taget="_blank">Send a message</a>
           </article>
           <article className='contact_option'>
             <BsWhatsapp className='contact_option-icon'/>
