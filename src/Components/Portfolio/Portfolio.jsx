@@ -41,7 +41,7 @@ const data = [
     image:IMG4,
     title: "Food Website",
     github: "https://github.com/Teewai57/Food-Plaza",
-    demo: "https://food-plaza-one.vercel.app/"
+    demo: "https://food-plaza-ty.vercel.app/"
   },
   {
     id:6,
