@@ -25,9 +25,9 @@ const data = [
   {
     id:3,
     image:IMG6,
-    title: "My Portfolio",
-    github: "https://github.com/Teewai57/Teewai-Portfolio",
-    demo: "https://toyoabasi-bob.vercel.app/"
+    title: "Vue Todo",
+    github: "https://github.com/Teewai57/TODO-list-with-Vue",
+    demo: "https://vue-todo-blue.vercel.app/"
   },
   {
     id:4,
